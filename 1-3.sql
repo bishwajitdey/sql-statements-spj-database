@@ -1,6 +1,6 @@
 ﻿--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-/*Problem 3: Print the S#s of suppliers that supply a part with weight greater 
-than 15 and that also supply a London project.*/
+/* 1-3: Print the S#s of suppliers that supply a part with weight greater 
+than 15 and that also supply a London project. */
 --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 /*Load database*/
@@ -17,7 +17,7 @@ if those specific j#s reside in the spj table and where.
 SELECT.. statements. This basically includes part numbers with weights > 15 AND that 
 ALSO supply to London projects/jobs. The suppliers meeting this criteria are found via
 cross-referencing in the spj table and are printed accordingly. The difference in this
-statement from problem 2 is that supplier #s who have products that weigh more than
+statement from 1-2 is that supplier #s who have products that weigh more than
 15 AND that are also able to distribute to london projects are included, and not 
 necessarily specific products that fulfill the weight req. and ship to London locations.
 */

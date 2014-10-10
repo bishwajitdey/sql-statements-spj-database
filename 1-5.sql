@@ -1,13 +1,12 @@
 ﻿--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-/*Problem 5: Print the pairs of J#s such that there is a shipment for the first 
-project having the same supplier and the same qty as a shipment for the second 
-project.*/
+/* 1-5: Print the pairs of J#s such that there is a shipment for the first project 
+having the same supplier and the same qty as a shipment for the second project.*/
 --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 /*Load Database*/ 
 use canzalon_spjdatabase;
 
-/*Description: This sql statement is a bit more complex in comparison to its
+/* Description: This sql statement is a bit more complex in comparison to its
 predecessors in this project. Here, we are trying to compare different columns
 to one another in the same table, in the same statement. To do this, we must create
 aliases of the appropriate columns to create binary conditions in the where-clause.

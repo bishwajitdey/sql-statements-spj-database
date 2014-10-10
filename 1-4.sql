@@ -1,6 +1,6 @@
 ﻿--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-/*Problem 4: Print the S#s of suppliers that supply a part with 
-weight greater than 15 but that do not supply a London project.*/
+/* 1-4: Print the S#s of suppliers that supply a part with 
+weight greater than 15 but that do not supply a London project. */
 --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 /*Load Database*/ 
@@ -13,7 +13,7 @@ that are also located in the spj table, the second condition being necessary to 
 that only parts located in the combined foreign key, spj, table are considered.
 -The second (SELECT..) statement finds the projects (jobs) that supply to London AND
 if those specific j#s reside in the spj table and where.
--This is where this statement differs from problem 3. Here, the EXCEPT sql keyword
+-This is where this statement differs from 1-3. Here, the EXCEPT sql keyword
 is used to deduct from the results of the sql statement that came before it. In other
 words, the first select statement finds the p#s of the products with weight greater 
 than 15 located in the spj table, and the EXCEPT keyword minuses from these results
